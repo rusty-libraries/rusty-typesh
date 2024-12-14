@@ -62,7 +62,7 @@ assert_eq!(result, Some("Integer: 42".to_string()));
 
 ## Documentation
 
-For detailed information on all available features and their usage, please refer to the full [SDK Documentation](https://pleaseful.github.io/rusty-typesh/).
+For detailed information on all available features and their usage, please refer to the full [SDK Documentation](https://rusty-libraries.github.io/rusty-typesh/).
 
 ## License
 
