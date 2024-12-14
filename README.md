@@ -18,7 +18,7 @@ To use this library, add the following dependencies to your `Cargo.toml` file:
 
 ```toml
 [dependencies]
-rusty-typesh = "0.1.0"
+rusty-typesh = "0.1.1"
 ```
 
 ## Getting Started
