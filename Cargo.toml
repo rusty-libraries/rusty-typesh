@@ -1,0 +1,26 @@
+[package]
+name = "rusty-typesh"
+version = "0.1.0"
+edition = "2021"
+authors = ["Bufferization <contact@bufferization.com>"]
+description = "A flexible type pattern matching system for Rust"
+documentation = "https://rusty-libraries.github.io/rusty-typesh/"
+repository = "https://github.com/rusty-libraries/rusty-typesh"
+homepage = "https://github.com/rusty-libraries/rusty-typesh"
+license = "MIT"
+readme = "README.md"
+keywords = ["type", "pattern-matching", "runtime", "type-checking", "matching"]
+categories = ["development-tools", "rust-patterns"]
+
+[dependencies]
+
+[dev-dependencies]
+criterion = "0.5"
+
+[[bench]]
+name = "benchmarks"
+harness = false
+
+[package.metadata.docs.rs]
+all-features = true
+rustdoc-args = ["--cfg", "docsrs"]
